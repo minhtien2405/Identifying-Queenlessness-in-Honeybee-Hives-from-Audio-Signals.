@@ -8,7 +8,7 @@ The dataset used for this project can be accessed through the following link:
 - [Audio Dataset](https://drive.google.com/file/d/1utZiU31JF-4cbJmXlLeU_qZ0O8Y_2nQj/view?usp=sharing)
 - [Numpy Dataset](https://drive.google.com/file/d/1iQjGGLkABK1h2AxnYix5G0JHjo4YNvTr/view?usp=sharing)
 
-The audio dataset consists of audio recordings captured from honeybee hives, containing a mix of normal hives and hives without a queen. And the Numpy (NPY) dataset consists of Npy data after preprocessing.
+The audio dataset consists of 20000 audio recordings (14000 for training, 4000 for tesing and 2000 for traing) captured from honeybee hives, containing a mix of normal hives and hives without a queen. And the Numpy (NPY) dataset consists of Npy data after preprocessing.
 ## Code
 
 The code for this project is organized as follows:
@@ -29,14 +29,18 @@ To use this code, follow these steps:
 
 Feel free to explore and modify the code according to your requirements. Happy detecting!
 
-## Model Architecture
+## [Model Architecture](https://drive.google.com/file/d/1yatezliW9On48Iq85e2Wr_NOTu_M7gGP/view?usp=sharing)
 <div align="center"> <img src=1D_CNN_Model_975acc.h5.png>< </div>
 
 ## Result
-- Accuracy plot: A graphical representation of the model's accuracy over training epochs.
-<div align="center"> <img src=1D_CNN_Model_975acc.h5.png>< </div>
-- ROC curve: A curve illustrating the model's performance in terms of true positive rate (sensitivity) and false positive rate (1 - specificity).
-- Confusion matrix: A matrix illustrating the model's performance in terms of true positive, true negative, false positive, and false negative classifications.
-- Classification report: A detailed report containing precision, recall, F1 score, and support for each class.
+### Accuracy plot:
+<div align="center"> <img src=accuracy_plot.png>< </div>
+### ROC curve:
+<div align="center"> <img src=ROC_curve_plot.png>< </div>
+|          | Predicted | Predicted |
+|----------|--------------------|--------------------|
+| Actual | 1954 | 46 |
+| Actual | 54 | 1946 |
+### Classification report:
 
 
