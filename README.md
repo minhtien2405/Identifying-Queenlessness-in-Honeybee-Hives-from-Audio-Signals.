@@ -2,6 +2,14 @@
 
 This project focuses on identifying queenlessness in honeybee hives using audio signal analysis. Queenlessness refers to the absence of a queen bee in a hive, which can have significant implications for the health and productivity of the colony. By analyzing audio recordings from the hive, this project aims to develop a machine learning model that can accurately detect queenlessness based on specific acoustic patterns.
 
+## Environment:
+- RAM: 43GB
+- GPU: NVIDIA RTX 3090
+- Programming Language: Python
+- OS: Linux
+- Framework: Tensorflow
+
+
 ## Dataset
 
 The dataset used for this project can be accessed through the following link: 
@@ -30,6 +38,14 @@ To use this code, follow these steps:
 Feel free to explore and modify the code according to your requirements. Happy detecting!
 
 ## [Model Architecture](https://drive.google.com/file/d/1yatezliW9On48Iq85e2Wr_NOTu_M7gGP/view?usp=sharing)
+### Parameter/Hyperparameter:
+- Batch-size: 128
+- Epoch: 300
+- Training Time: 41 Minutes and 50 Seconds
+- Optimizer: Adam
+- Learrning Rate: 0.00001
+- EarlyStopping: Patience = 222, RestoreBestWeight = True, ValLoss
+
 <div align="center"> <img src=1D_CNN_Model_975acc.h5.png>< </div>
 
 ## Result
