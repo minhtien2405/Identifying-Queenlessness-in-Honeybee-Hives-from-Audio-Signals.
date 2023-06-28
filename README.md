@@ -33,14 +33,12 @@ Feel free to explore and modify the code according to your requirements. Happy d
 <div align="center"> <img src=1D_CNN_Model_975acc.h5.png>< </div>
 
 ## Result
-### Accuracy plot:
+- Accuracy plot:
 <div align="center"> <img src=accuracy_plot.png>< </div>
-### ROC curve:
+- ROC curve:
 <div align="center"> <img src=ROC_curve_plot.png>< </div>
-|          | Predicted | Predicted |
-|----------|--------------------|--------------------|
-| Actual | 1954 | 46 |
-| Actual | 54 | 1946 |
-### Classification report:
-
+- Confusion matrix:
+<div align="center"> <img src=ROC_curve_plot.png>< </div>
+- Classification report:
+<div align="center"> <img src=ROC_curve_plot.png>< </div>
 
