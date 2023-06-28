@@ -13,9 +13,9 @@ The audio dataset consists of audio recordings captured from honeybee hives, con
 
 The code for this project is organized as follows:
 
-- `stft.ipynb`: This script is responsible for preprocessing the audio dataset, including noise removal, audio segmentation, and feature extraction.
+- `stft.ipynb`: This script is responsible for preprocessing the audio dataset, feature extraction.
 
-- `model_training.py`: This script trains the machine learning model using the preprocessed audio features. It employs algorithms and techniques suitable for audio signal classification, such as convolutional neural networks (CNNs) or recurrent neural networks (RNNs).
+- `1D_CNN_model_STFT_97_5ACC.ipynb`: This script trains the machine learning model using the preprocessed audio features. It employs algorithms and techniques suitable for audio signal classification, such as convolutional neural networks (CNNs).
 
 ## Usage
 
@@ -23,14 +23,20 @@ To use this code, follow these steps:
 
 1. Download the audio dataset from the provided link.
 
-2. Run the `data_preprocessing.py` script to preprocess the audio recordings and extract relevant features.
+2. Run the `stft.ipynb` script to preprocess the audio recordings and extract relevant features.
 
-3. Execute the `model_training.py` script to train the machine learning model using the preprocessed audio features.
-
-4. Once the model is trained, run the `model_evaluation.py` script to evaluate its performance on the test set and assess its ability to identify queenlessness in honeybee hives.
+3. Execute the `1D_CNN_model_STFT_97_5ACC.ipynby` script to train the machine learning model using the preprocessed audio features.
 
 Feel free to explore and modify the code according to your requirements. Happy detecting!
 
-## License
+## Model Architecture
+<div align="center"> <img src=1D_CNN_Model_975acc.h5.png>< </div>
 
-This project is licensed under the [MIT License](LICENSE).
+## Result
+- Accuracy plot: A graphical representation of the model's accuracy over training epochs.
+<div align="center"> <img src=1D_CNN_Model_975acc.h5.png>< </div>
+- ROC curve: A curve illustrating the model's performance in terms of true positive rate (sensitivity) and false positive rate (1 - specificity).
+- Confusion matrix: A matrix illustrating the model's performance in terms of true positive, true negative, false positive, and false negative classifications.
+- Classification report: A detailed report containing precision, recall, F1 score, and support for each class.
+
+
