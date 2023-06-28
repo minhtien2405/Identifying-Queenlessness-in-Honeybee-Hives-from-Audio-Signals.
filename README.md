@@ -38,7 +38,7 @@ Feel free to explore and modify the code according to your requirements. Happy d
 - ROC curve:
 <div align="center"> <img src=ROC_curve_plot.png>< </div>
 - Confusion matrix:
-<div align="center"> <img src=ROC_curve_plot.png>< </div>
+<div align="center"> <img src=confusion_matrix.png>< </div>
 - Classification report:
-<div align="center"> <img src=ROC_curve_plot.png>< </div>
+<div align="center"> <img src=trainingsetstats.png>< </div>
 
